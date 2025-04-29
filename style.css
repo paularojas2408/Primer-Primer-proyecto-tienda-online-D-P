@@ -315,3 +315,21 @@ body{
     75% { margin-left: -300%;}
     100% { margin-left: -300%;}
 }
+
+@media (max-with:991px) {
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #181818;
+        display: none;
+    }
